@@ -1,5 +1,5 @@
 {
-    "name": "UGA/twig2pdf-bundle",
+    "name": "uga/twig2pdf-bundle",
     "type": "symfony-bundle",
     "description": "Twig2pdf for Symfony 2.8 LTS ",
     "keywords": ["pdf", "tcpdf", "html2pdf"],
