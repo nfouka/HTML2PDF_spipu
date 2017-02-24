@@ -132,6 +132,14 @@ composer install
 ```
 
 
+Information:
+------------
+
+* Programmer: Spipu
+* Web Site  : http://html2pdf.fr/
+* Wiki      : http://html2pdf.fr/en/wiki
+* Support   : http://html2pdf.fr/en/forum
+
 Contact Me
 ----------
 Nadir Fouka < nadir@fouka.ovh > Web Developer Grenoble University 2017
