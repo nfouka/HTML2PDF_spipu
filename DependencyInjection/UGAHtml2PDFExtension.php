@@ -1,0 +1,36 @@
+<?php
+
+namespace UGA\Html2PDFBundle\DependencyInjection;
+
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\Config\FileLocator;
+use Symfony\Component\HttpKernel\DependencyInjection\Extension;
+use Symfony\Component\DependencyInjection\Loader;
+
+/**
+ * This is the class that loads and manages your bundle configuration.
+ *
+ * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
+ */
+class UGAHtml2PDFExtension extends Extension
+{
+    /**
+     * {@inheritdoc}
+     */
+    public function load(array $configs, ContainerBuilder $container)
+    {
+        $configuration = new Configuration();
+        $config = $this->processConfiguration($configuration, $configs);
+        
+        $container->setParameter('html2_pdf_orientation', $config['html2_pdf_orientation']);
+        $container->setParameter('html2_pdf_format', $config['html2_pdf_format']);
+        $container->setParameter('html2_pdf_lang', $config['html2_pdf_lang']);
+        $container->setParameter('html2_pdf_unicode', $config['html2_pdf_unicode']);
+        $container->setParameter('html2_pdf_encoding', $config['html2_pdf_encoding']);
+        $container->setParameter('html2_pdf_margin', $config['html2_pdf_margin']);
+        
+
+        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader->load('services.xml');
+    }
+}
