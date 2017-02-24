@@ -67,8 +67,23 @@ uga_html2_pdf:
     html2_pdf_margin: [10,15,10,15]
 ```
 
-How to run the tests ?
-----------------------
+Integration with twig template :
+```php
+    $template = $this->template->render('AcmeMyAppBundle:Default:index.html.twig',array(
+        'CLASS_HTML2PDF' => "HTML2PDF FOR SYMFONY 2.8.18 "
+    )) ;  
+    
+
+    $html2pdf =  $this->pdf2html->getInstance() ;
+    $html2pdf->WriteHTML($template);
+    $html2pdf->Output('exemple.pdf');
+```
+
+
+
+
+Update package in vendor project ?
+----------------------------------
 
 ```
 composer install
