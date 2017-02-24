@@ -1,10 +1,9 @@
 # Twig2PDF_SPIPU LIB
 Twig2pdf for Symfony 2.8 LTS 
 
-EnseparHtml2pdfBundle
+Twig2pdf Bundle
 =====================
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/0e16b696-0da3-4efc-b856-60429a9672b4/mini.png)](https://insight.sensiolabs.com/projects/0e16b696-0da3-4efc-b856-60429a9672b4)
 
 Twig2pdf for Symfony 2/Drupal 8 as a service.
 
