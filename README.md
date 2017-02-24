@@ -1,4 +1,4 @@
-# Twig2PDF_spipu
+# Twig2PDF_SPIPU LIB
 Twig2pdf for Symfony 2.8 LTS 
 
 EnseparHtml2pdfBundle
@@ -73,3 +73,8 @@ How to run the tests ?
 ```
 composer install
 ```
+
+
+Contact Me
+----------
+Nadir Fouka < nadir@fouka.ovh > Web Developer Grenoble University 2017
