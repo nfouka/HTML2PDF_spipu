@@ -3,6 +3,8 @@ Twig2pdf for Symfony 2.8 LTS
 
 Twig2pdf Bundle
 =====================
+[![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg)](https://php.net/)
+[![License](https://img.shields.io/packagist/l/goaop/goaop-symfony-bundle.svg)](https://packagist.org/packages/goaop/goaop-symfony-bundle)
 
 
 Twig2pdf for Symfony 2/Drupal 8 as a service.
