@@ -6,7 +6,8 @@ Twig2pdf Bundle
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nfouka/HTML2PDF_spipu/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nfouka/HTML2PDF_spipu/?branch=master)
 [![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg)](https://php.net/)
 [![License](https://img.shields.io/packagist/l/goaop/goaop-symfony-bundle.svg)](https://packagist.org/packages/goaop/goaop-symfony-bundle)
-
+[![Build Status](https://scrutinizer-ci.com/g/nfouka/HTML2PDF_spipu/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nfouka/HTML2PDF_spipu/build-status/master)
+!https://scrutinizer-ci.com/g/nfouka/HTML2PDF_spipu/badges/quality-score.png?b=master!:https://scrutinizer-ci.com/g/nfouka/HTML2PDF_spipu/?branch=master
 
 Twig2pdf for Symfony 2/Drupal 8 as a service.
 
