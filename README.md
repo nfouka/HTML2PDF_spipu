@@ -39,7 +39,7 @@ Just add this to your composer.json file:
 
 ```js
 "require": {
-  "spipu/html2pdf": "^4.6"
+  "uga/twig2pdf-bundle": "^1.1"
 }
 ```
 Enable it in the Kernel
