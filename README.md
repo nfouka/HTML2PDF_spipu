@@ -1,5 +1,5 @@
-# Twig2PDF_SPIPU LIB
-Twig2pdf for Symfony 2.8 LTS 
+# Twig2PDF_SPIPU LIB for Symfony 2.8 / 3.x
+
 <img src="https://github.com/nfouka/HTML2PDF_spipu/blob/master/logo.png?raw=true" /> <br/>
 
 Twig2pdf Bundle
