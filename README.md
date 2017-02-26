@@ -167,4 +167,6 @@ Information:
 
 Contact Me
 ----------
-Nadir Fouka < nadir@fouka.ovh > Web Developer Grenoble University 2017
+Nadir Fouka < nadir@fouka.ovh > 
+* Web Developer Grenoble Alpes University 2017
+* Data Scientist Planet@Dev
