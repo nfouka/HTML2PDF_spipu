@@ -75,7 +75,8 @@ In your action:
 You can pass every option you would pass to twig2pdf, for instance :
 
 ```
-$html2pdf = $this->pdf2html->getInstance('P', 'A4', 'en', true, 'UTF-8', array(10, 15, 10, 15));
+$html2pdf = $this->pdf2html->getInstance('P', 'A4', 'en', true, 'UTF-8', array(10, 15, 10, 15)); or by container
+$html2pdf =  $this->container->get('uga_html2_pdf.service')->getInstance('P', 'A4', 'fr', null, null, null);
 ```
 
 If the previous arguments are not provided, the factory uses its own default values. You can
