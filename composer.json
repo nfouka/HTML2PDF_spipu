@@ -23,5 +23,5 @@
     "autoload": {
         "psr-0": { "UGA\\Html2PDFBundle": "" }
     },
-    "target-dir": "UGA/Html2pdfBundle"
+    "target-dir": "UGA/Html2PDFBundle"
 }
