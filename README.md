@@ -42,6 +42,9 @@ Just add this to your composer.json file:
 "require": {
   "uga/twig2pdf-bundle": "^1.1"
 }
+
+Or you tape in your ROOT project 
+composer require uga/twig2pdf-bundle
 ```
 Enable it in the Kernel
 
