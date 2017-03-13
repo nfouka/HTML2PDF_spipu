@@ -175,7 +175,4 @@ Contact Me
 Nadir Fouka < nadir@fouka.ovh > 
 * Web Developer Grenoble Alpes University 2017
 * Data Scientist Planet@Dev
-Sofiane Merouane < smerouane78@yahoo.fr >
-* Web Developer
-Mohamed Bounaga < mohamed.bounaga@gmail.com >
-* Web Developer 
+
